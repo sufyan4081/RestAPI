@@ -1,0 +1,11 @@
+npm init 	//for package.json file
+npm i express, nodemon, dotenv, bodyParser
+set dev:'nodemon server.js' in package.json file
+create server 
+type:module in package.json for ES6
+create schema and create model in (model/product.js)file
+create .env file for secure mongodb url, port.
+connect mongodb in (config/database.js)file
+create api function in (controllers/productControllers.js)file
+define route in (routes/productRouter.js) file
+import productRouter.js file in app.js
